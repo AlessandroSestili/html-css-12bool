@@ -3,3 +3,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    border: 1px solid black;
+}
+
+.row {
+}
+
+[class*="col-"] {
+    border: 1px solid black;
+
+    background-color: pink;
+
+    height: 150px;
+}
+
+[class*="col-"] > div {
+    text-align: center;
+
+    line-height: 150px;
+    vertical-align: middle;
+}
+
+.last-row {
+}
+
+.last-col {
+    background-color: salmon;
+    
+    border: 1px solid white;
+}
+
+.last-col > div {
+    
+}
