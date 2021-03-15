@@ -5,7 +5,7 @@
 }
 
 .container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .row {
@@ -28,10 +28,7 @@
 }
 
 .last-row {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 8px;
-    padding-left: 16px;
+    padding: 8px;
 
 }
 
